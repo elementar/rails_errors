@@ -1,6 +1,5 @@
 'use strict'
 
-import isArray from 'lodash.isarray'
 import get from 'lodash.get'
 import head from 'lodash.head'
 
@@ -43,7 +42,7 @@ class RailsErrors {
     if (!msgs)
       return
 
-    if (!isArray(msgs))
+    if (!Array.isArray(msgs))
       msgs = [msgs]
 
     msgs = msgs.map(this.fixErrorMessage)

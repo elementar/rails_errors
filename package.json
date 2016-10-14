@@ -1,6 +1,6 @@
 {
   "name": "rails_errors",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Rails Errors parser",
   "main": "index.js",
   "scripts": {
@@ -35,7 +35,6 @@
   },
   "dependencies": {
     "lodash.get": "^4.4.2",
-    "lodash.head": "^4.0.1",
-    "lodash.isarray": "^4.0.0"
+    "lodash.head": "^4.0.1"
   }
 }
