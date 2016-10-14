@@ -1,0 +1,41 @@
+{
+  "name": "rails_errors",
+  "version": "0.0.1",
+  "description": "Rails Errors parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "babel -o index.js src/",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/elementar/rails_errors.git"
+  },
+  "keywords": [
+    "rails",
+    "errors",
+    "node"
+  ],
+  "author": "Fábio David Batista <fabio@elementarsistemas.com.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elementar/rails_errors/issues"
+  },
+  "homepage": "https://github.com/elementar/rails_errors#readme",
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0",
+    "chai": "^3.5.0",
+    "eslint": "^3.7.1",
+    "eslint-config-standard": "^6.2.0",
+    "eslint-plugin-promise": "^3.0.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "mocha": "^3.1.2"
+  },
+  "dependencies": {
+    "lodash.get": "^4.4.2",
+    "lodash.head": "^4.0.1",
+    "lodash.isarray": "^4.0.0"
+  }
+}
